@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>List To Do</title>
+
+    <link rel="stylesheet" href="./source/css/style.css">
+    <script type="module" src="./source/js/main.js"></script>
+</head>
+
+<body>
+    <div class="todo-bg-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="todos-heading">To-Do's Application</h1>
+                    <h1 class="create-task-heading">Create <span class="create-task-heading-subpart"> Task </span></h1>
+                    <input type="text" id="todoUserInput" class="todo-user-input" placeholder="What needs to be done?" />
+                    <button class="add-todo-button " id="addTodoButton">Add</button>
+
+                    <h1 class="todos-items-heading">
+                        My <span class="todos-items-heading-subpart">Tasks</span>
+
+                    </h1>
+
+                    <ul class="todos-items-container" id="todoItemsContainer">
+
+                    </ul>
+
+                    <button class="add-todo-button" id="saveTodoButton">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
